@@ -29,6 +29,9 @@ function displayQuestions() {
                 if (option == questionObj.correctAnswer){
                     showFeedback('Correct!', 'green');
                 }
+                else{
+                    showFeedback('Incorrect.', 'red');
+                }
             });
 
             const optionDiv = document.createElement('div');
